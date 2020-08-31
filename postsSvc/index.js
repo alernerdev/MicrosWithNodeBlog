@@ -41,5 +41,5 @@ app.post('/events', (req, res) => {
 
 app.listen(4000, () => {
     console.log(chalk.blue("posts svc listening on 4000..."));
-})
+});
 
